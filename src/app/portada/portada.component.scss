@@ -1,0 +1,30 @@
+.cover{
+    background-image: url("../../assets/img/portada.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    &__title{
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 5%;
+        color: white;
+        &__text{
+            border-bottom: 2px solid rgb(151, 146, 98);
+            width: fit-content;
+        }
+        &__icon{
+            font-size: 36px;
+            margin-left: 35%;
+        }
+    }
+}

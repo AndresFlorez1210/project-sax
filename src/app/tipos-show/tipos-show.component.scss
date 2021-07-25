@@ -1,0 +1,37 @@
+.conainer-show-component{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    &__img{
+        position: relative;
+        height: auto;
+        width: 40%;
+        background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+    }
+    &__info{
+        position: relative;
+        height: 100%;
+        width: 60%;
+        &__body-text{
+            width: 100%;
+            padding: 10%;
+            color: white;
+        }
+        &__soundcloud{
+            position: relative;
+            width: 50%;
+            left: 20%;
+            margin: 5%;
+        }
+    }
+}
+
+.title-contactenos{
+    color: white;
+}

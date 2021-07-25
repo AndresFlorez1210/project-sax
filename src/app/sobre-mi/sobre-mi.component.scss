@@ -1,0 +1,31 @@
+.container-sobre-mi{
+    position: relative;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__row{
+        width: 90%;
+        height: 70%;
+        &__text{
+            text-align: justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__imagen{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &__img{
+                height: 100%;
+                width: 100%;
+                background-image: url("../../assets/img/sobre-mi.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}

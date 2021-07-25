@@ -1,0 +1,73 @@
+.container-servicios{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #ded8a6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__row{
+        width: 90%;
+        height: 70%;
+        &__item{
+            margin: 10px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            &__icon{
+                font-size: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &__descripcion{
+                padding: 10px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.modal-service-one{
+    max-width: 90%;
+    max-height: 90%;
+    &__content{
+        &__body{
+            overflow-y: scroll;
+            &__tabpanel{
+                &__ul{
+                   display: flex;
+                   justify-content: space-evenly;
+                    &__a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+                &__tab{
+                    &__row{
+                        margin: 20px;
+                        &__text{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                        }
+                        &__imagen{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            &__img{
+                                height: 100%;
+                                width: 100%;
+                                background-image: url("../../assets/img/sobre-mi.jpg");
+                                background-size: cover;
+                                background-position: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

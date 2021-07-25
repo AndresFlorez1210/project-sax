@@ -1,0 +1,12 @@
+<div class="conainer-show-component">
+ <div class="conainer-show-component__img"></div>
+ <div class="conainer-show-component__info">
+    <div class="container-title">
+        <h2 class="container-title__title title-contactenos">{{title}}</h2>
+    </div>
+    <div class="conainer-show-component__info__body-text" [innerHtml]="textBody"></div>
+    <div class="conainer-show-component__info__soundcloud">
+        <iframe  width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" [src]="podcast | safeurl"></iframe>
+    </div>
+ </div>
+</div>

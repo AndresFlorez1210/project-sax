@@ -1,0 +1,10 @@
+<div class="container-podcast">
+    <div class="container-podcast__blur">
+        <div class="container-title title-podcast">
+            <h2 class="container-title__title ">Podcast</h2>
+        </div>
+        <div class="container-podcast__blur__frame" *ngFor = "let podcast of podcastListSrc">
+            <iframe  width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" [src]="podcast | safeurl"></iframe>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.container-comentarios{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ded8a6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__grid-container{
+        width: 90%;
+        &__comment{
+            height: auto;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}
