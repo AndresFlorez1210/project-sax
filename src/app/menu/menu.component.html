@@ -1,0 +1,27 @@
+<div class="box-menu" [ngClass]="showClass">
+    <div class="wrapper" (click)="toggle()">
+        <div class="hamburger" [ngClass]="stateToggle ? 'active' : '' ">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="/home" class="active"><span class="icon fa fa-home"></span><span class="text">Inicio</span></a>
+        <a (click)="toggleShow()"><span class="icon fa fa-music"></span><span class="text">Shows</span></a>
+        <a href="#"><span class="icon fa fa-graduation-cap"></span><span class="text">Clases</span></a>
+        <a href="/contactenos"><span class="icon fa fa-phone"></span><span class="text">Contactenos</span></a>
+    </div>
+    <div class="menu-show">
+        <a (click)="toggleShow()"><span class="icon fa fa-step-backward"></span><span class="text">Atras</span></a>
+        <a href="/show-personalizado"><span class="icon fa fa-music"></span><span class="text">Show Personalizado</span></a>
+        <a href="/show-principal"><span class="icon fa fa-music"></span><span class="text">Show Principal</span></a>
+        <a href="/show-romantico"><span class="icon fa fa-music"></span><span class="text">Show Romantico</span></a>
+        <a href="/show-bohemio"><span class="icon fa fa-music"></span><span class="text">Show Bohemio</span></a>
+        <a href="/show-juvenil"><span class="icon fa fa-music"></span><span class="text">Show Juvenil</span></a>
+        <a href="/show-rock-and-sax"><span class="icon fa fa-music"></span><span class="text">Show Rock And Sax</span></a>
+        <a href="/show-electro"><span class="icon fa fa-music"></span><span class="text">Show Electro</span></a>
+        <a href="/show-jazz-and-blues"><span class="icon fa fa-music"></span><span class="text">Show Jazz and Blues</span></a>
+    </div>
+</div>

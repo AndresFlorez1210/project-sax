@@ -1,0 +1,52 @@
+{
+    "Services": [
+        {
+            "title": "Personalizado",
+            "urlImage": "../../assets/img/tipos-show/show-personalizado.jpg",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "Organiza tu Set List acorde a tus preferencias con base en los shows de AlexCasaxMusic. <br><br><strong>Music World Academy</strong> <br><br><strong>Motivación, constancia y resultados.</strong><br><br>Music World Academy, es una academia independiente fundada por profesionales en la música, que busca compartir de manera eficaz, eficiente y profesional sus conocimientos en esta área artística.<br>La academia ofrece distintos planes que se adecuan perfectamente a tus necesidades considerando  aspectos tales como: tiempo, dinero, idioma, ubicación, preferencias de métodos e intereses puntuales para con la música.<br><br>------Cuéntanos qué instrumento te gustaría aprender, o qué área de la música te gustaría fortalecer. Te contactaremos lo más pronto posible junto con el maestro encargado del área."
+        },
+        {
+            "title": "Principal",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "El show principal se caracteriza por su selección de repertorio versátil, moderno y diverso, que permite transportarnos en un viaje por el mundo.<br><br>-Tones And I [Electro] – Dance Monkey<br>-Rolling in the Deep – Adele<br>-Shape of you – Ed Sheeran<br>-Shine On – R.I.O<br>-Havana – Camila Cabello<br>- Get Lucky –[House] – Daft Punk<br>-Closer – The Chainsmokers<br>-Señorita – Shaw Mendes, Camila Cabello<br>-Sorry – Justin Bieber<br>-Uptown Funk – Bruno Mars"
+        },
+        {
+            "title": "Romantic",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "Una noche perfecta con la mejor música del estilo romántico, entre luces bajas, velas y flores.<br><br>-Perfect – Ed Sheeran<br>-A thousand Years – Christina Perri<br>-Sabrás – Herencia de Timbiquí<br>-I will always love you – Whitney Houston<br>-Burbujas de amor – Juan Luis Guerra<br>-Para tu amor  – Juanes<br>-Shallow – Lady Gaga, Brandley Cooper<br>-Días tras día – Andrés Cepeda<br>-Thinking out loud – Ed Sheeran<br>-Tan natural – Felipe Peláez"
+        },
+        {
+            "title": "Bohemian",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "El show bohemio nos remonta a la época en que la música se escuchaba en familia. Las mejores canciones de antaño, hoy, llevadas al saxofón.<br><br>-Triunfamos – Los panchos<br>-Te busco – Celia Cruz<br>-Quizás, quizás, quizás – Osvaldo Farrés<br>-Sabor a mí- Álvaro Carrillo Alarcón<br>-Piel canela – Bobby Capó<br>-El camino de la vida – Trío América<br>-Somos novios – Armando Manzanero<br>-Mi viejo – Piero<br>-Historia de un amor – Carlos Eleta Almarán<br>-Bésame mucho – Consuelo Velásquez"
+        },
+        {
+            "title": "Juvenil",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "Vive la experiencia de una fiesta animada, única y sofisticada.<br><br>-Calma – Pedro Capó<br>-Caramelo - Ozuna<br>-Hawái – Maluma<br>-Rojo – J. Balvin<br>-Dakiti – Bad Bunny, Jhay Cortéz<br>-Tusa – Karol G<br>-Te vi – Piso 21, Micro TDH<br>-Tutu – Camilo, Pedro Capó<br>-Sorry – Justin Bieber<br>-Vida de rico – Camilo"
+        },
+        {
+            "title": "Rock and Sax",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "Los años 60 y 70  del Reino Unido, Norteamérica y el mundo llegan hoy con una propuesta aplicada al saxofón.<br><br>-Bohemian Rhapsody – Queen<br>-Wish you were here – Pink Floyd<br>-Yesterday – The Beatles<br>-Hotel California – The Eagles<br>-Imagine – John Lennon<br>-Sweet Child O’ Mine – Guns N’ Roses<br>-Can’t help Falling in love – Elvis Presley<br>-Dream On – Aerosmith<br>-Let it be – The Beatles <br>-Money – Pink Floyd"
+        },
+        {
+            "title": "Electro",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "Un festival de electrónica adaptado al concepto moderno del saxofón que promete ser una experiencia inigualable.<br><br>-Infinity – Guru Josh<br>-Tones And I [Electro] – Dance Monkey<br>-Shine On – R.I.O<br>-Get Lucky –[Electro] – Daft Punk<br>-Titanium – David Guetta, Sia<br>-Let me love you – Dj Snake, Justin Bieber<br>-Closer – The Chainsmokers<br>-Lean On – Major Lazer, DJ Snake<br>-Wake me up – Avicii<br>-Summer – Calvin"
+        },
+        {
+            "title": "Jazz and Blues",
+            "urlImage": "",
+            "podcast": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1026194413&color=%23d6b8a6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+            "textBody": "La música que popularizó al saxofón y la voz rasgada  desde New Orleans por el mundo, hoy de nuevo presente.<br><br>-La vie en rose – Louis Armstrong<br>-Autumn Leaves – J.Prévert, J. Mercer, J. Kosma<br>-Stand by me – BB King<br>-In the mood -  Joe Garland<br>-My Way – Frank Sinatra<br>-Blue Bossa – Dexter Gordon<br>-Take five – Pauls Desmond<br>-New York New York – Frank Sinatra"
+        }
+    ]
+}

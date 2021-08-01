@@ -1,7 +1,6 @@
 import * as data from '../../assets/json/podcast.json';
 import { Component, OnInit } from '@angular/core';
-import  { Podcast } from './models/podcast.model'
-import { Observable } from 'rxjs';
+import  { Podcast } from './models/podcast.model';
 
 @Component({
   selector: 'app-podcast',

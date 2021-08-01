@@ -1,0 +1,152 @@
+.box-menu {
+	position: fixed;
+	left: 2%;
+	top: 50px;
+	cursor: pointer;
+	background: white;
+	width: 60px;
+	height: 60px;
+	box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+	border-radius: 60px;
+	transition: height .4s;
+	z-index:100;
+}
+.full-menu {
+	height: 300px;
+}
+
+.wrapper {
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+
+.hamburger {
+	position: absolute;
+	left: 22px;
+	top: 22px;
+	width: 16px;
+	height: 16px;
+}
+.hamburger span {
+	position: absolute;
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background: black;
+	border-radius: 10px;
+	transition: all .3s;
+}
+
+.hamburger span:nth-child(1) { top: 3px; }
+.hamburger span:nth-child(2) { top: 8px; }
+.hamburger span:nth-child(3) { top: 8px; }
+.hamburger span:nth-child(4) { top: 13px; }
+
+.hamburger.active span:nth-child(1) { width: 0; margin-left: 8px;}
+.hamburger.active span:nth-child(2) { transform: rotate(45deg); }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg); }
+.hamburger.active span:nth-child(4) { width: 0; margin-left: 8px;}
+
+.menu, .menu-show {
+	position: relative;
+	left: -9999px;
+}
+
+.menu a, .menu-show a{
+	white-space: nowrap;
+	position: relative;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	width: 150px;
+	height: 58px;
+	line-height: 58px;
+	font-family: Ubuntu;
+}
+.menu a.active::after, .menu-show a.active::after {
+	top: 19px;
+	height: 20px;
+}
+.menu a span, .menu-show a span  {
+	opacity: 0;
+	display: inline-block;
+	font-size: 14px;
+}
+.menu a span.icon, .menu-show a span.icon {
+	transform: scale(.5);
+	color: black;
+	font-size: 18px;
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	transition: transform .3s;
+}
+.menu a span.text, .menu-show a span.text {
+  text-shadow: 1px 1px 0px rgba(0,0,0,.3);
+	opacity: 0;
+	margin-left: 40px;
+	transition: margin .3s, opacity .3s, transform .3s;
+}
+
+.full-menu .menu {
+	left: 0;
+}
+.full-menu .menu a:hover span {
+	opacity: 1;	
+}
+.full-menu .menu a span {
+	opacity: .8;
+}
+.full-menu .menu a span.icon {
+	transform: scale(1.1);
+}
+.full-menu .menu a span.text {
+	margin-left: 25px;
+}
+.full-menu .menu a:hover span.text {
+	transform: translateX(5px);
+	transition-delay: 0s;
+}
+
+.full-menu-show{
+	height: 600px;
+}
+
+.full-menu-show .menu {
+	display: none;
+}
+
+.full-menu-show .menu-show {
+	left: 0;
+}
+.full-menu-show .menu-show a:hover span {
+	opacity: 1;	
+}
+.full-menu-show .menu-show a span {
+	opacity: .8;
+}
+.full-menu-show .menu-show a span.icon {
+	transform: scale(1.1);
+}
+.full-menu-show .menu-show a span.text {
+	margin-left: 25px;
+}
+.full-menu-show .menu-show a:hover span.text {
+	transform: translateX(5px);
+	transition-delay: 0s;
+}
+
+.menu a:nth-child(1) span { transition: all .5s .1s, opacity .5s 0s, transform .5s 0s; }
+.menu a:nth-child(2) span { transition: all .5s .15s, opacity .5s 0s, transform .5s 0s; }
+.menu a:nth-child(3) span { transition: all .5s .2s, opacity .5s 0s, transform .5s 0s; }
+.menu a:nth-child(4) span { transition: all .5s .25s, opacity .5s 0s, transform .5s 0s; }
+
+.menu-show a:nth-child(1) span { transition: all .5s .1s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(2) span { transition: all .5s .15s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(3) span { transition: all .5s .2s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(4) span { transition: all .5s .25s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(5) span { transition: all .5s .3s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(6) span { transition: all .5s .35s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(7) span { transition: all .5s .4s, opacity .5s 0s, transform .5s 0s; }
+.menu-show a:nth-child(8) span { transition: all .5s .45s, opacity .5s 0s, transform .5s 0s; }
