@@ -22,5 +22,6 @@ export class ShowPrincipalComponent implements OnInit {
 
   ngAfterViewInit() {
     this.tiposShowComponent.title = 'Principal';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__principal';
   }
 }

@@ -26,6 +26,7 @@ import { ShowJazzAndBluesComponent } from './show-jazz-and-blues/show-jazz-and-b
 import { MenuComponent } from './menu/menu.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ClasesComponent } from './clases/clases.component';
 
 const routes: Routes = [
   { path: 'contactenos', component: ContactenosComponent },
@@ -38,6 +39,7 @@ const routes: Routes = [
   { path: 'show-rock-and-sax', component: ShowRockAndSaxComponent},
   { path: 'show-electro', component: ShowElectroComponent},
   { path: 'show-jazz-and-blues', component: ShowJazzAndBluesComponent},
+  { path: 'clases', component: ClasesComponent},
 ];
 
 @NgModule({
@@ -62,7 +64,8 @@ const routes: Routes = [
     ShowElectroComponent,
     ShowJazzAndBluesComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+    ClasesComponent
   ],
   imports: [
     BrowserModule,

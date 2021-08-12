@@ -22,6 +22,7 @@ export class ShowRockAndSaxComponent implements OnInit {
 
   ngAfterViewInit() {
     this.tiposShowComponent.title = 'Rock and Sax';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__rock-and-sax';
   }
 
 }

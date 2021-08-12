@@ -13,6 +13,7 @@ export class TiposShowComponent implements OnInit {
   title = '';
   podcast = ''
   textBody = '';
+  classImage = '';
 
   constructor() { }
 

@@ -22,6 +22,7 @@ export class ShowJazzAndBluesComponent implements OnInit {
 
   ngAfterViewInit() {
     this.tiposShowComponent.title = 'Jazz and Blues';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__jazz-and-blues';
   }
 
 }

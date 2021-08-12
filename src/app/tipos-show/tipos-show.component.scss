@@ -9,10 +9,78 @@
         position: relative;
         height: auto;
         width: 40%;
-        background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
-        background-repeat: no-repeat;
-        background-position: initial;
-        background-size: cover;
+        &__personalizado{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__principal{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__bohemio{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__electro{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__jazz-and-blues{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__juvenil{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__romantico{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__rock-and-sax{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
+        &__clases{
+            height: 100%;
+            width: 100%;
+            background-image: url('../../assets/img/tipos-show/show-personalizado.jpg');
+            background-repeat: no-repeat;
+            background-position: initial;
+            background-size: cover;
+        }
     }
     &__info{
         position: relative;

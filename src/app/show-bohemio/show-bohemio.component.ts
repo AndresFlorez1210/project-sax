@@ -22,6 +22,7 @@ export class ShowBohemioComponent implements OnInit {
 
   ngAfterViewInit() {
     this.tiposShowComponent.title = 'Bohemian';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__bohemio';
   }
 
 }

@@ -2,11 +2,11 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { TiposShowComponent } from '../tipos-show/tipos-show.component';
 
 @Component({
-  selector: 'app-show-electro',
-  templateUrl: './show-electro.component.html',
-  styleUrls: ['./show-electro.component.scss']
+  selector: 'app-clases',
+  templateUrl: './clases.component.html',
+  styleUrls: ['./clases.component.scss']
 })
-export class ShowElectroComponent implements OnInit {
+export class ClasesComponent implements OnInit {
 
   @ViewChild(TiposShowComponent)
   private tiposShowComponent: TiposShowComponent;
@@ -21,8 +21,8 @@ export class ShowElectroComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.tiposShowComponent.title = 'Electro';
-    this.tiposShowComponent.classImage = 'conainer-show-component__img__electro';
+    this.tiposShowComponent.title = 'Clases';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__clases';
   }
 
 }

@@ -20,5 +20,6 @@ export class ShowJuvenilComponent implements OnInit {
 
   ngAfterViewInit() {
     this.tiposShowComponent.title = 'Juvenil';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__juvenil';
   }
 }

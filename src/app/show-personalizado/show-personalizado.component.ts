@@ -22,6 +22,7 @@ export class ShowPersonalizadoComponent implements OnInit {
 
   ngAfterViewInit() {
     this.tiposShowComponent.title = 'Personalizado';
+    this.tiposShowComponent.classImage = 'conainer-show-component__img__personalizado';
   }
 
 }
