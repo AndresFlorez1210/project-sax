@@ -21,7 +21,7 @@ export class ShowRomanticoComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.tiposShowComponent.title = 'Romantic';
+    this.tiposShowComponent.title = 'Romántico';
     this.tiposShowComponent.classImage = 'conainer-show-component__img__romantico';
   }
 }
