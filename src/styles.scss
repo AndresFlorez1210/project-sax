@@ -5,6 +5,10 @@ app-root{
     background-color: black;
 }
 
+body{
+    background-color: black;
+}
+
 .container-title{
     position: relative;
     height: auto;
@@ -13,6 +17,7 @@ app-root{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     &__title{
             border-bottom: 2px solid rgb(98, 130, 151);
             width: fit-content;

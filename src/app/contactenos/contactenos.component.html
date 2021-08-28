@@ -4,22 +4,22 @@
             <h2 class="container-title__title title-contactenos">Contáctenos</h2>
         </div>
         <div class="container-contactenos__form">
-            <form>
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
                 <div class="form-group">
                   <label for="exampleFormControlInput1" class="container-contactenos__form__label">Nombre</label>
-                  <input type="email" class="form-control container-contactenos__form__input" id="exampleFormControlInput1" placeholder="Nombre">
+                  <input class="form-control container-contactenos__form__input" id="exampleFormControlInput1" placeholder="Nombre" formControlName="name">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1" class="container-contactenos__form__label">Correo</label>
-                    <input type="email" class="form-control container-contactenos__form__input" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control container-contactenos__form__input" id="exampleFormControlInput1" placeholder="name@example.com"  formControlName="email">
                   </div>
                   <div class="form-group">
                     <label for="exampleFormControlInput1" class="container-contactenos__form__label">Celular</label>
-                    <input type="email" class="form-control container-contactenos__form__input" id="exampleFormControlInput1" placeholder="">
+                    <input type="email" class="form-control container-contactenos__form__input" id="exampleFormControlInput1" placeholder=""  formControlName="phone">
                   </div>
                 <div class="form-group">
                   <label for="exampleFormControlSelect1" class="container-contactenos__form__label">Servicio</label>
-                  <select class="form-control container-contactenos__form__input" id="exampleFormControlSelect1">
+                  <select class="form-control container-contactenos__form__input" id="exampleFormControlSelect1" formControlName="service">
                     <option class="Show principal">Show principal</option>
                     <option class="Show bohemio">Show bohemio</option>
                     <option class="Show electro">Show electro</option>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1" class="container-contactenos__form__label">Mensaje</label>
-                  <textarea class="form-control container-contactenos__form__input" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control container-contactenos__form__input" id="exampleFormControlTextarea1" rows="3"  formControlName="message"></textarea>
                 </div>
                 <div class="form-group row container-botones">
                     <a href="https://www.facebook.com/"><img src="../../assets/icons/instagram.png" class="container-contactenos__form__img"></a>

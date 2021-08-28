@@ -27,6 +27,10 @@ import { MenuComponent } from './menu/menu.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ClasesComponent } from './clases/clases.component';
+import {HttpClientModule} from '@angular/common/http'; 
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+
+
 
 const routes: Routes = [
   { path: 'contactenos', component: ContactenosComponent },
@@ -72,6 +76,9 @@ const routes: Routes = [
     MatGridListModule,
     AppRoutingModule,
     MatIconModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(routes)
   ],
   exports: [RouterModule],

@@ -17,16 +17,19 @@ export class MenuComponent implements OnInit {
   }
 
   toggle(){
-    console.log('ENTRA 3');
     this.stateToggle = !this.stateToggle;
     this.showClass = this.stateToggle ? 'full-menu' : '';
     this.stateToggleShow = false;
+    const div = document.getElementById('back-menu');
+    if(this.stateToggle){
+      div.classList.add('background-menu');
+    }else{
+      div.classList.remove('background-menu'); 
+    }
   }
 
   toggleShow(){
-    console.log('ENTRA ',this.showClass);
     this.stateToggleShow = !this.stateToggleShow;
     this.showClass = this.stateToggleShow ? 'full-menu-show' : 'full-menu';
-    console.log('ENTRA2 ',this.showClass);
   }
 }
