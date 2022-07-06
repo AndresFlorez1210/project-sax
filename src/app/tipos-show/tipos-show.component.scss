@@ -5,10 +5,12 @@
     background-color: #1c1c1c;
     display: flex;
     flex-direction: row;
+    margin: 0;
     &__img{
         position: relative;
         height: auto;
         width: 40%;
+        padding: 0;
         &__personalizado{
             height: 100%;
             width: 100%;
@@ -86,6 +88,7 @@
         position: relative;
         height: 100%;
         width: 60%;
+        padding: 0;
         &__body-text{
             width: 100%;
             padding: 10%;
@@ -102,4 +105,50 @@
 
 .title-contactenos{
     color: white;
+}
+
+@media only screen
+  and (max-device-width: 700px){
+    .conainer-show-component{
+        margin: 0;
+        &__img{
+            height: 800px;
+            width: 100%;
+            padding: 0;
+        }
+        &__info{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            &__soundcloud{
+                position: relative;
+                width: 80%;
+                left: 5%;
+                margin: 5%;
+            }
+        }
+    }
+}
+
+@media only screen
+  and (max-width: 600px){
+    .conainer-show-component{
+        margin: 0;
+        &__img{
+            height: 800px;
+            width: 100%;
+            padding: 0;
+        }
+        &__info{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            &__soundcloud{
+                position: relative;
+                width: 80%;
+                left: 5%;
+                margin: 5%;
+            }
+        }
+    }
 }
